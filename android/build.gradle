@@ -1,5 +1,5 @@
-group 'com.xuexiang.flutter_xupdate'
-version '3.0.0'
+group 'com.aaron.flutter_xupdate_ae'
+version '3.1.1'
 
 buildscript {
     repositories {
@@ -23,6 +23,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.aaron.flutter_xupdate_ae'
     compileSdkVersion 31
 
     compileOptions {

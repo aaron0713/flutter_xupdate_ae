@@ -27,8 +27,8 @@ import android.text.TextUtils;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.aaron.flutter_xupdate_ae.R;
 import com.xuexiang.xupdate.XUpdate;
-
 
 /**
  * 版本更新重试提示弹窗
@@ -40,7 +40,6 @@ public class RetryUpdateTipDialog extends AppCompatActivity implements DialogInt
 
     public static final String KEY_CONTENT = "com.xuexiang.flutter_xupdate.KEY_CONTENT";
     public static final String KEY_URL = "com.xuexiang.flutter_xupdate.KEY_URL";
-
 
     /**
      * 显示版本更新重试提示弹窗
@@ -59,7 +58,6 @@ public class RetryUpdateTipDialog extends AppCompatActivity implements DialogInt
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
 
         String content = getIntent().getStringExtra(KEY_CONTENT);
         final String url = getIntent().getStringExtra(KEY_URL);
